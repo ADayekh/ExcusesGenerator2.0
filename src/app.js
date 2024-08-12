@@ -46,13 +46,10 @@ window.onload = function() {
     let randomtime = random_position(time);
 
     let excuse =
-      subject[randomsubject] +
-      " " +
-      verb[randomverb] +
-      " " +
-      event[randomevent] +
-      " " +
-      time[randomtime];
+      ` ${subject[randomsubject]} ` +
+      ` ${verb[randomverb]} ` +
+      ` ${event[randomevent]} ` +
+      ` ${time[randomtime]} `;
 
     return excuse;
   }
@@ -74,4 +71,5 @@ window.onload = function() {
     what,
     when
   );
+  
 };
